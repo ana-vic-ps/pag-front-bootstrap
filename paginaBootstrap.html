@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <title>Café Boutique</title>
+  <style>
+    body {
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      margin-bottom: 20px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      background-color: #fff;
+      border: none;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-title {
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+      font-family: 'Pacifico', cursive;
+    }
+
+    .card-text {
+      color: #666;
+    }
+
+    .card-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .navbar {
+      background-color: #7b6146;
+      color: #fff;
+      font-family: 'Pacifico', cursive;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .navbar-nav .nav-link {
+      color: #fff;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Café Boutique</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="header">
+      <h1>Café Boutique</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="imgs/cafeEspresso.jpg" alt="Imagem do Café Espresso" class="card-img">
+          <div class="card-body">
+            <h5 class="card-title">Café Espresso</h5>
+            <p class="card-text">Preço: R$ 5,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="imgs/capuccino.jpg" alt="Imagem do Cappuccino" class="card-img">
+          <div class="card-body">
+            <h5 class="card-title">Cappuccino</h5>
+            <p class="card-text">Preço: R$ 7,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="imgs/mocha.jpg" alt="Imagem do Mocha" class="card-img">
+          <div class="card-body">
+            <h5 class="card-title">Mocha</h5>
+            <p class="card-text">Preço: R$ 6,50</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="imgs/latte.jpg" alt="Imagem do Café Latte" class="card-img">
+          <div class="card-body">
+            <h5 class="card-title">Café Latte</h5>
+            <p class="card-text">Preço: R$ 6,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="imgs/mochaBranco.jpg" alt="Imagem do Mocha Branco" class="card-img">
+          <div class="card-body">
+            <h5 class="card-title">Mocha Branco</h5>
+            <p class="card-text">Preço: R$ 7,50</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="imgs/cafeAmericano.jpg" alt="Imagem do Café Americano" class="card-img">
+          <div class="card-body">
+            <h5 class="card-title">Café Americano</h5>
+            <p class="card-text">Preço: R$ 4,50</p>
+          </div>
+        </div>
+      </div>
+      <!-- Adicione mais cards aqui -->
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
